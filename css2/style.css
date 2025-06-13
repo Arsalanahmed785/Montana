@@ -51,7 +51,7 @@ nav ul button{
    color: black;
    border-radius: 10px;
    padding: 10px;
-    border: cyan 1px;
+    border: solid cyan 1px;
    font-weight: 500;
    transition: all 0.6s;
 } 
