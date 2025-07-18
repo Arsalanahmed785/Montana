@@ -25,8 +25,7 @@ nav ul{
   display: flex;
   justify-content: space-between;   
   padding-top: 20px;
-}
- 
+} 
  nav ul li {   
    list-style: none;
     transition: 1s;
@@ -385,13 +384,13 @@ span{
   width: 100%;   
   background-color: rgba(255, 255, 255, 0.2); 
   position: absolute;  
-  top: 400px;
+  bottom: 400px;
   border-radius: 10px;  
   transition: 0.7s;      
 }
  .abc:hover .opacity{   
    left: 0; 
-   top: 0px;
+   bottom: 0px;
   cursor: pointer; 
 }
 
@@ -451,10 +450,9 @@ span{
   transition: 0.7s;   
 }
 
-.hij:hover .opacity3{
+.hij:hover .opacity3{   
    margin-top: 0px;
-   cursor: pointer;
-   transition: 1s;
+   cursor: pointer;   
 }
 
 .hij:hover img{
@@ -603,19 +601,21 @@ footer hr{
 footer .icon{    
    color: white;  
    display: flex; 
-   gap: 40px;
+   gap: 40px;   
    justify-content: flex-end;
    align-items: center;
    padding: 30px 0 0 0;
 }
 
-.icon i{   
-   /* height: 30px;    */
+.icon i{      
    cursor: pointer;
    transition: 0.7s;   
 }
 .icon i:hover{   
    color: #1d89f5;
-   font-size: 45px;   
+   font-size: 2.3rem;   
    cursor: pointer;   
+}
+.icon #instagram:hover {
+   color: rgb(231, 20, 105);
 }
