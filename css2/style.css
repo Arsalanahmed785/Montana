@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;    
- } 
+}
  .bg-img{
    background-image: url('../images/balcony-6901071_1920.jpg');
    background-size: cover;   
@@ -301,6 +301,7 @@ video{
 }
 
 .section-3 .abw{
+   height: 70vh;
    border-radius: 10px;
    overflow: hidden;
    transition: all 0.6s;  
@@ -310,6 +311,7 @@ video{
    width: 100%;
    height: 70vh;
    transition: all 0.6s; 
+   overflow: hidden;
 }
 span{
    position: absolute;
@@ -319,7 +321,7 @@ span{
    left: 5%;
    z-index: 1;   
 }
-.section-3 .abw:hover img{
+.section-3 .abw img:hover{
    transform: scale(1.1);
    cursor: pointer;
 }

@@ -240,20 +240,20 @@
     transition: 1s;
     overflow: hidden;
     animation: abd 4s infinite 2s;
-}
+    }
 @keyframes abd{
    from{margin-left: 20px; color: rgb(255, 255, 255); font-size: 0.8rem;}
    to{right: 00px; color:#1d89f5; font-size: 0.8rem;}
-}
+    }
     .section-3 h3 {
     font-size: 2rem;    
-}
+   }
     .section-3 h1 {
         font-size: 2rem;
     }
     .card-section h5 {
     font-size: 2em;    
-}
+    }
       .card-section-2 i{
        position: absolute;
        top: 44%;
@@ -261,15 +261,20 @@
     }
     .contact {    
     padding: 10px;    
-}
+    }
     .contact button {
         width: 58%;
         font-size: 0.9rem;
     }
-    .section-3 .abw img {    
+    .section-3 .abw {    
     height: 45vh;
-    margin-top: 5px;    
-}
+    margin-top: 5px;   
+    overflow: hidden;}
+
+    .section-3 .abw img {    
+    height: 45vh;    
+    }
+   
     .section-3 span{
         font-size: 2rem;
     }
